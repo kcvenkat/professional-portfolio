@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
+
+body{
+    background-color: black;
+}
+
+.home-content{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    padding: 2vw 10vw 2vw 10vw;
+;
+}
+.home-content .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vw;
+}
+
+.home-content .hero .title{
+    font-size: 3rem;
+    margin: 2vw 2vh;
+    text-align: left;
+}
+
+.home-content .hero .content{
+    font-size: 1.2rem;
+    text-align: left;
+}
+.home-content{
+    position: relative;
+    overflow: hidden;
+}
+
+.home-content::before{
+    content: "";
+    position: absolute;
+    inset: -30%;
+    background: radial-gradient(
+        ellipse 120% 80%,
+        #452092 1%,
+        black 30%, 
+        transparent 75%
+    );
+    z-index: -1;
+    filter: blur(90px);
+}
+
+.home-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+    justify-content: center;
+}
+button{
+    background-color: black;
+    color: rgba(169, 169, 169, 0.481);
+    border: solid 2px rgba(169, 169, 169, 0.481);
+    border-radius: 8px;
+    font-family: "JetBrains Mono", monospace;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    padding: 3vh 7vw;
+}
+button:hover{
+    color: white;
+    border-color: #452092;
+    text-shadow:
+    0 0 2px #6a35ff,
+    0 0 4px #5a28ff,
+    0 0 16px #452092,
+    0 0 100px #452092;
+    cursor: pointer;
+}
+.icons img{
+    width: 50px;
+    height: auto;
+    padding: 10px;
+    margin: 1vw;
+}
+.icons img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+.home-content img {
+  cursor: pointer;
+}
+.pixel img{
+    width: 400px;
+    height: auto;
+}
+.item{
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(60px); 
+  transition: 
+    opacity 0.8s ease-out,
+    transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.item.show{
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+.about{
+    display: flex;
+    align-items: center;
+    padding: 2vw 10vw;
+    background-color: #44209252;
+    margin: 3vw 0vw;
+}
+
+.about-title{
+    font-size: 3rem;
+    margin: 2vw 2vw;
+}
+.about-text{
+    font-size: 1.2rem;
+    margin: 2vw 10vw 2vw 2vw;
+}
+.about .pfp img{
+    height: 25vw;
+    width: auto;
+    min-height: 200px;
+    min-width: 200px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;   
+}
+.home-links{
+    margin: 4vw;
+}

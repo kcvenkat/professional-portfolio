@@ -1,0 +1,29 @@
+.navbar{
+  position: relative;
+   display: flex;
+   justify-content: center;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+   background-color: none;
+   z-index: 10;
+   color: rgba(169, 169, 169, 0.481);
+}
+a{
+    all: unset;
+}
+.links{
+    display: flex;
+    gap: 5rem;
+}
+.links a:hover {
+  color: white;
+  text-shadow:
+    0 0 2px #6a35ff,
+    0 0 4px #5a28ff,
+    0 0 8px #452092,
+    0 0 14px #452092;
+  cursor: pointer;
+}
+
+

@@ -1,0 +1,43 @@
+.title{
+    margin: 2rem 2rem 0rem 2rem;
+}
+.outro{
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgba(169, 169, 169, 0.481);
+    margin: 1rem;
+}
+.supports{
+    margin: 0rem 0rem 2rem 0rem;
+}
+.form-container{
+    background-color: #44209252;
+    padding: 2rem 5rem 2rem 5rem;
+}
+.text-label{
+  display: block;
+  margin: 3rem 2rem 0.5rem 2rem;
+  font-size: 2rem;
+}
+.form-input{
+    all:unset;
+    margin: 0rem 2rem 0rem 2rem;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5rem 3rem 0.5rem 0.5rem;
+    border-radius: 8px;
+
+}
+.form-input:focus{
+    border: 5px solid #452092;
+}
+.submit-button{
+    display: block;
+    padding: 0.5rem 4rem;
+    margin: 3rem 2rem 0rem 2rem;
+}
+.message-input{
+    width: 90%;
+    min-height: 9rem;
+}

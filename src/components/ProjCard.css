@@ -1,0 +1,71 @@
+.projcard{
+    background-color: black;
+    border: 3px solid rgba(169, 169, 169, 0.481);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 3vw;
+    border-radius: 20px;
+    margin: 2vw 3vw;
+    gap: 4vw;
+    color:rgba(169, 169, 169, 0.481);
+}
+
+.projcard:hover{
+    border-color: #452092;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: transform 0.2s ease;
+    color: white;
+}
+.projcard:hover .projcard-image img {
+    filter: brightness(100%);
+}
+
+.projcard:hover .image-overlay {
+    opacity: 0;
+}
+.projcard:hover .projcard-title{
+    color: white;
+  text-shadow:
+    0 0 2px #6a35ff,
+    0 0 4px #5a28ff,
+    0 0 8px #452092,
+    0 0 14px #452092;
+}
+.projcard-content{
+    min-width: 0;
+    flex: 1;
+}
+.projcard-image {
+    position: relative;
+    width: clamp(120px, 15vw, 250px);
+    height: clamp(120px, 15vw, 250px);
+    flex-shrink: 0;
+}
+
+.projcard-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+
+    transition: filter 0.2s ease;
+    filter: brightness(65%);
+}
+
+.image-overlay {
+    position: absolute;
+    inset: 0;
+    border-radius: 20px;
+
+    background: rgba(0, 0, 0, 0.25);
+
+    transition: opacity 0.2s ease;
+}
+.projcard .projcard-title{
+    font-size: 2rem;
+}
+.projcard .projcard-date{
+    margin: 0vw 0vw 2vw 0vw;
+}
