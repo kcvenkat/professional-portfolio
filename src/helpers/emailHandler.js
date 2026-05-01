@@ -28,12 +28,12 @@ function sendEmail(e, setStatus){
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
     )
     .then(() =>{
-        alert("Message sent!");
+        console.log("Contact Form: Message sent!");
         setStatus("sent")
     })
     .catch((err) =>{
         console.error(err);
-        alert("Failes to send message");
+        console.log("Contact Form: Failed to send message");
         setStatus("error")
     })
 }
