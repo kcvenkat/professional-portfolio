@@ -19,6 +19,9 @@ function Home(){
     useEffect(() => {
       if (fetched.current) return;
       fetched.current = true;
+      console.log("Part 2 of 2");
+      console.log("secondHalf: 31TWOYuv");
+      console.log("Not everything needs decoding. Sometimes you just need to know where to go.");
       fetch("api/debug.json");
       fetch("api/logs.json");
       fetch("api/metrics.json");
