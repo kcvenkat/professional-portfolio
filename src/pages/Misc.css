@@ -1,7 +1,11 @@
+body{
+  overflow-x: hidden;
+}
 .music-container{
     margin: 2rem;
     position: relative;
     overflow: show;
+    overflow: visible;
 }
 .long-desc {
   position: relative;
@@ -35,7 +39,6 @@
     );
     z-index: -1;
     filter: blur(90px);
-    overflow-x: hidden;
 }
 .soundcloud-frame {
   display: flex;
