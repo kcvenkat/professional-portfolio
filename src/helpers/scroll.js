@@ -1,9 +1,5 @@
 import {useEffect} from "react"
 
-//Part 2 of 2
-const secondHalf = "31TWOYuv"
-//Not everything needs decoding. Sometimes you just need to know where to go."
-
 function useScroll(){
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
