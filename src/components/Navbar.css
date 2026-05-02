@@ -30,8 +30,10 @@ a{
     padding: 0.5rem 0.3rem;
   }
   .links {
-    gap: clamp(0.5rem, 2.5vw, 1.5rem);
-    font-size: clamp(0.65rem, 2.8vw, 0.9rem);
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem 1.5rem;
+    font-size: 1rem;
   }
 }
 
