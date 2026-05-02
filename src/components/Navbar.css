@@ -31,10 +31,9 @@ a{
   }
   .links {
     gap: clamp(0.8rem, 3vw, 2rem);
-    font-size: clamp(1rem, 4vw, 1.5rem);
+    font-size: clamp(0.85rem, 3.2vw, 1.1rem);
   }
 }
-
 @media (max-width: 480px) {
   .links {
     gap: 1rem;
