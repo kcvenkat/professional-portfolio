@@ -24,7 +24,7 @@ function Misc() {
       <div className="music-container item">
         <p className="list-title">My Music</p>
         <p className="long-desc">I make Lo-Fi music inspired by techno and synth-like sounds and choppy 808-like kicks, snares, and hi-hats. My favorite genre of music is generally calm music like RnB, Lo-Fi, and Hip Hop. My main motivation to produce music is both to refine my songwriting with my guitar and have something to listen to while I work. I hope others can find the same solace in my music.</p>
-        <p className="long-desc">Use the VHS widget to listen to each song, and it should autoplay the next song. If you want to visit my SoundCloud, click the link.</p>
+        <p className="long-desc">Use the VHS widget to listen to each song, and it should autoplay the next song.</p>
         <div className="soundcloud-frame">
           <div className="vhs-body">
             <div className="vhs-screw screw-tl"></div>

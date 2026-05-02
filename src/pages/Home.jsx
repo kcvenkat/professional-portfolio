@@ -20,9 +20,9 @@ function Home(){
       if (fetched.current) return;
       fetched.current = true;
       console.log("Part 2 of 2");
-      console.log("secondHalf: 31TWOYuv");
-      console.log("Not everything needs decoding. Sometimes you just need to know where to go.");
-      fetch("api/debug.json");
+      console.log("Bnlxwm Qjuo: 31CFXHde");
+      console.log("Now put it together. Sometimes, you must redirect to achieve your goals.");
+      fetch("api/flag.json");
       fetch("api/logs.json");
       fetch("api/metrics.json");
       fetch("api/cache.json");
@@ -38,7 +38,7 @@ function Home(){
           <div className = "hero">
             <p className = "title">Hi, I'm Kaushik</p>
             <p className = "content">I'm a student who's interested in digital forensics and incident response (DFIR), networking, and AI security. I live by the idea that there's no limit on what to learn and when to learn it. I'm constantly working on certifications and projects that I will be documenting on this page.</p>
-            <p className="content">There's also a small capture-the-flag challenge on the Home page that leads somewhere secret. Remember, I like networking. Happy hacking!</p>
+            <p className="content">There's also a small capture-the-flag challenge on the About page that leads to a secret page. Remember, I like NETWORKing. Filtering can actually get you pretty far too. Happy hacking!</p>
             <div className = "icons">
                 <a
                 href="https://github.com/kcvenkat"
