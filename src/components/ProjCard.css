@@ -69,3 +69,20 @@
 .projcard .projcard-date{
     margin: 0vw 0vw 2vw 0vw;
 }
+@media (max-width: 768px) {
+  .projcard {
+    padding: 0.8rem 1.5rem;
+    margin: 0.8rem;
+    gap: 2vw;
+  }
+  .projcard-image {
+    width: clamp(80px, 18vw, 150px);
+    height: clamp(80px, 18vw, 150px);
+  }
+  .projcard .projcard-title {
+    font-size: clamp(1rem, 4vw, 2rem);
+  }
+  .projcard-desc, .projcard-date {
+    font-size: clamp(0.75rem, 3vw, 1rem);
+  }
+}

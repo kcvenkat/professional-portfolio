@@ -73,4 +73,19 @@
 .experience-link{
     color: #5a28ff;
 }
-
+@media (max-width: 768px) {
+  .experience-container {
+    margin: 1rem;
+  }
+  .title {
+    font-size: clamp(1.5rem, 6vw, 3rem);
+  }
+  .list-title {
+    font-size: clamp(1.2rem, 5vw, 2.3rem);
+    margin: 1rem;
+  }
+  .list-elements, .long-desc {
+    font-size: clamp(0.9rem, 3.5vw, 1.2rem);
+    margin: 0 1rem;
+  }
+}

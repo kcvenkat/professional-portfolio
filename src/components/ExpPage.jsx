@@ -60,7 +60,7 @@ function ExpPage(){
             <ul className = "list-elements item">
                 {(experience.relatedLinks ?? []).map((link) => (
                     <li key = {link.url}>
-                        <a class = "experience-link" href = {link.url} rel = "noopener noreferrer" target = "_blank">
+                        <a className = "experience-link" href = {link.url} rel = "noopener noreferrer" target = "_blank">
                             {link.label}
                         </a>
                     </li>
