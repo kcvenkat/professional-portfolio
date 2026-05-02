@@ -38,7 +38,7 @@ function Home(){
           <div className = "hero">
             <p className = "title">Hi, I'm Kaushik</p>
             <p className = "content">I'm a student who's interested in digital forensics and incident response (DFIR), networking, and AI security. I live by the idea that there's no limit on what to learn and when to learn it. I'm constantly working on certifications and projects that I will be documenting on this page.</p>
-            <p className="content">There's also a small capture-the-flag challenge on the About page that leads to a secret page. Remember, I like NETWORKing. Filtering can actually get you pretty far too. Happy hacking!</p>
+            <p className="content"><strong>There's also a small capture-the-flag challenge on this page that leads to a secret page.</strong> Remember, I like NETWORKing. Filtering can actually get you pretty far too. Happy hacking!</p>
             <div className = "icons">
                 <a
                 href="https://github.com/kcvenkat"
