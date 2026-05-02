@@ -21,12 +21,12 @@ function Misc() {
       <h1 className="title item">Miscellaneous</h1>
       <p className="supports item">You made it!</p>
       <p className="long-desc outside item">Thank you for taking the time to solve my mini CTF challenge. Now, you know me a bit deeper than my surface-level professional portfolio. Welcome to my "Miscellaneous" page. This page contains information and productions that stem from my hobbies like making music or reading and discussing philosophy. While this page is still a work in progress, I will keep adding items to it as I indulge in more creative pursuits.</p>
-      <div className="music-container item">
-        <p className="list-title">My Music</p>
-        <p className="long-desc">I make Lo-Fi music inspired by techno and synth-like sounds and choppy 808-like kicks, snares, and hi-hats. My favorite genre of music is generally calm music like RnB, Lo-Fi, and Hip Hop. My main motivation to produce music is both to refine my songwriting with my guitar and have something to listen to while I work. I hope others can find the same solace in my music.</p>
-        <p className="long-desc">Use the VHS widget to listen to each song, and it should autoplay the next song.</p>
+      <div className="music-container">
+        <p className="list-title item">My Music</p>
+        <p className="long-desc item">I make Lo-Fi music inspired by techno and synth-like sounds and choppy 808-like kicks, snares, and hi-hats. My favorite genre of music is generally calm music like RnB, Lo-Fi, and Hip Hop. My main motivation to produce music is both to refine my songwriting with my guitar and have something to listen to while I work. I hope others can find the same solace in my music.</p>
+        <p className="long-desc item">Use the VHS widget to listen to each song, and it should autoplay the next song.</p>
         <div className="soundcloud-frame">
-          <div className="vhs-body">
+          <div className="vhs-body item">
             <div className="vhs-screw screw-tl"></div>
             <div className="vhs-screw screw-tr"></div>
             <div className="vhs-screw screw-bl"></div>
