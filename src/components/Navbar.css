@@ -27,34 +27,25 @@ a{
 }
 @media (max-width: 768px) {
   .navbar {
-    padding: 0.8rem 1rem;
-    font-size: 1rem;
+    padding: 0.8rem 0.5rem;
   }
   .links {
-    gap: 1.5rem;
+    gap: clamp(0.8rem, 3vw, 2rem);
+    font-size: clamp(1rem, 4vw, 1.5rem);
   }
 }
 
 @media (max-width: 480px) {
   .links {
     gap: 1rem;
-    font-size: 0.85rem;
-  }
-}
-@media (max-width: 768px) {
-  .navbar {
-    padding: 0.8rem 0.5rem;
-  }
-  .links {
-    gap: clamp(0.8rem, 3vw, 2rem);
-    font-size: clamp(0.75rem, 3vw, 1rem);
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 400px) {
   .links {
     gap: 0.6rem;
-    font-size: 0.7rem;
+    font-size: 3rem;
   }
 }
 
